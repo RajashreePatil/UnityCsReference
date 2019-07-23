@@ -1,0 +1,51 @@
+{
+    "gammaAccess": {
+        "url": "",
+        "userName": "",
+        "password": ""
+    },
+    "repositories": [
+        {
+            "dataDir": "",
+            "repository": {
+                "uid": "d209ca772bb9a8bdf8b24d7293e567e0",
+                "projectName": "unity_c#",
+                "languages": [
+                    "C_SHARP"
+                ],
+                "sources": {
+                    "baseDir": "",
+                    "exclusions": [
+                        "(?i)(.g.cs|example|mock|assemblyinfo.cs|.AssemblyAttributes.cs|.AnyCPU.Debug|.AnyCPU.Release)"
+                    ]
+                }
+            },
+            "settings": {
+                "additionalOptions": [],
+                "includePaths": []
+            },
+            "modules": {
+                "codeissues": [
+                    {
+                        "name": "gamma_cs",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": []
+                        }
+                    }
+                ],
+                "relevance": [
+                    {
+                        "name": "relevance",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": []
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
